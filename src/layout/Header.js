@@ -17,14 +17,18 @@ const Header = () => {
             <Link to="/about" className="navbar-link">
               About
             </Link>
-            <Link to="/contact" className="navbar-link">
-              Contact
-            </Link>
+
             <Link to="/products" className="navbar-link">
               Our Breads
             </Link>
-            <Link to="/catalogue" className="navbar-link">
-              Catalogue
+            <Link to="/contact" className="navbar-link">
+              Contact
+            </Link>
+            <Link to="/login" className="navbar-link">
+              Login
+            </Link>
+            <Link to="/signup" className="navbar-link">
+              SignUp
             </Link>
             <Link href="#" className="navbar-link">
               Shop
