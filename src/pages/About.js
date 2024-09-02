@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import "../styles/globalStyles.css";
@@ -29,14 +29,22 @@ const About = () => {
         </div>
       </div>
 
-      <div className="partners-section">
-        <h2>Our Partners</h2>
-        <div className="partners-list">
-          <button className="partner-button">2020INC</button>
-          <button className="partner-button">THE PMAY</button>
-          <button className="partner-button">Arise Health</button>
+      <div className="partner-container">
+        <div className="partners-section">
+          <div className="partners-content">
+            <h2>Our Partners</h2>
+          </div>
+          <div className="partners-list">
+            <div className="partner">2020INC</div>
+            <div className="partner">2020INC</div>
+            <div className="partner">THE PMAY</div>
+            <div className="partner">THE PMAY</div>
+            <div className="partner">THE PMAY</div>
+            <div className="partner">THE PMAY</div>
+          </div>
         </div>
       </div>
+
       <div className="faq-section">
         <h2>Frequently Asked Questions</h2>
         <div className="faq-item">
@@ -45,6 +53,13 @@ const About = () => {
         </div>
         <div className="faq-item">
           <h3>What payment methods are supported?</h3>
+          <p>
+            We accept various forms of payment, including online payment
+            methods.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>What options for logistics plans are available?</h3>
           <p>
             We accept various forms of payment, including online payment
             methods.
